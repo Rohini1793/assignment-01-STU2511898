@@ -52,3 +52,9 @@ INSERT INTO order_items VALUES (2,1001,102,2);
 INSERT INTO order_items VALUES (3,1002,103,3);
 INSERT INTO order_items VALUES (4,1003,104,5);
 INSERT INTO order_items VALUES (5,1004,105,1);
+
+
+select * from customers
+select * from products
+select * from Orders
+select * from order_items
