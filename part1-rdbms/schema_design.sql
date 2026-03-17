@@ -14,6 +14,7 @@ CREATE TABLE orders (
     order_id INTEGER PRIMARY KEY,
     customer_id INTEGER,
     order_date TEXT,
+    handled_by TEXT,
     FOREIGN KEY(customer_id) REFERENCES customers(customer_id)
 );
 
