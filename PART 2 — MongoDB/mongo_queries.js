@@ -59,7 +59,3 @@ db.products.updateOne(
 
 // OP5: createIndex() — index on category
 db.products.createIndex({ category: 1 });
-
-// Explanation:
-// Creating an index on 'category' improves query performance,
-// especially for frequent searches like filtering products by category.
