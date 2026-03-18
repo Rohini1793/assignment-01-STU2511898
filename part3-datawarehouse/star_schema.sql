@@ -130,3 +130,4 @@ INSERT INTO fact_sales (date_id, store_id, product_id, quantity, total_revenue) 
 (21, 2, 2, 14, 325165.68),-- TXN5066 Delhi Tablet (extra for coverage)
 (22, 3, 9, 20, 846862.00); -- TXN5049 Pune Laptop (extra)
 
+select * from dim_product

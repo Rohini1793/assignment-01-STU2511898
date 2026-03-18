@@ -29,7 +29,6 @@ JOIN read_json_auto('datasets/orders.json') o
     ON c.customer_id = o.customer_id
 WHERE c.city = 'Bangalore';
 
-
 -- Q4: Show customer name, order date, product name, quantity
 
 SELECT 
